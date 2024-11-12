@@ -4,9 +4,9 @@ import Link from '@docusaurus/Link';
 
 const Button = ({ children, href }) => {
     return (
-        <div className="d-flex justify-content-center">
+        <div className="col col--2 margin-horiz--sm">
             <Link
-                className="btn btn-primary btn-lg"
+                className="button button--outline button--primary button--lg"
                 to={href}>
                 {children}
             </Link>

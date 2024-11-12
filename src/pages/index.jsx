@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
+import Translate from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import FeatureBlock from "../components/FeaturesList";
 import WhatIs from "../components/WhatIs";
@@ -28,8 +29,12 @@ export default function Home() {
           <GhButton />
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className="heroButtons" data-aos="zoom-in">
-            <Button href={"https://github.com/kaito-project/kaito/blob/main/README.md#quick-start"}>Quickstart</Button>
-            <Button href={"https://github.com/kaito-project/kaito/tree/main/docs"}>Learn More</Button>
+            <Button href={"https://github.com/kaito-project/kaito/blob/main/README.md#quick-start"}>
+   	      <Translate>Quickstart</Translate>
+	    </Button>
+            <Button href={"https://github.com/kaito-project/kaito/tree/main/docs"}>
+	      <Translate>Learn More</Translate>
+	    </Button>
           </div>
         </div>
       </header>
