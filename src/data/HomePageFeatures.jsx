@@ -6,7 +6,7 @@ const features = [
         imgUrl: 'img/kaito-easy-model-deployment.png',
         description: (
             <p>
-                KAITO differs from mainstream model deployment options built on VM infrastructures by managing large model files using container images, providing preset configurations to avoid workload parameter adjustment based on GPU hardware, auto-provisioning GPU nodes based on model requirements, and hosting large OSS model images in a public container registry. Your organization may have specific model requirements for language, performance, versioning, etc. so KAITO helps you easily containerize and onboard a custom model by following a <a href='https://github.com/kaito-project/kaito/docs/custom-model-integration/custom-model-integration-guide.md'>simple 5-step guidance</a>.
+                KAITO differs from mainstream model deployment options built on VM infrastructures by managing large model files using container images, providing preset configurations to avoid workload parameter adjustment based on GPU hardware, auto-provisioning GPU nodes based on model requirements, and hosting large OSS model images in a public container registry. Your organization may have specific model requirements for language, performance, versioning, etc. so KAITO helps you easily containerize and onboard a custom model by following a <a href='https://github.com/kaito-project/kaito/blob/main/docs/custom-model-integration/custom-model-integration-guide.md'>simple 5-step guidance</a>.
             </p>
         ),
         reverse: false,
