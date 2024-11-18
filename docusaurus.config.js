@@ -154,7 +154,7 @@ const config = {
         ],
         copyright: `
         <br />
-        <strong>Copyright © ${new Date().getFullYear()} The KAITO Authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.</strong
+        <strong>Copyright © ${new Date().getFullYear()} The KAITO authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.</strong
       `,
       },
       prism: {
