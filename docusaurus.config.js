@@ -134,8 +134,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'CNCF Slack (#kaito channel)',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Contributors and Maintainers',
+                href: 'https://github.com/kaito-project/kaito/graphs/contributors',
               },
               {
                 label: 'KAITO Roadmap',
